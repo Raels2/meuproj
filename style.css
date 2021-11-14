@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'Bro_4D_Demo.otf';
+    src: url('Bro_4D_Demo.otf'); 
+  font-weight: normal;
+  
+}
+@font-face{
+    font-family: 'Android\ Scratch.ttf';
+    src: url('Android\ Scratch.ttf'); 
+
+}
+
+
+:root{
+    --font-Bro_4D_Demo: 'Bro_4D_Demo.otf';
+    --font-Android\ Scratch:'Android\ Scratch.ttf';
+
+}
+body{
+   background-image: linear-gradient(to right, white,rgb(52, 155, 52));
+   margin: 4%;
+   padding: 4%;
+   margin-top: -7%;
+
+
+
+}
+header > h1{
+    background-color: rgb(54, 204, 62);
+     font-family: var(--font-Bro_4D_Demo);
+     text-align: center;
+     min-height: 150px;
+     padding-top: 40px;
+     margin-top: 0px;
+     text-shadow: opx 0px 0px black;
+
+   }
+   a.externo::after{
+       content: '🔗';
+    
+}
+  
+   main h2{
+       color: rgb(116, 245, 12);
+   background-image: linear-gradient(to right, green, white);}
+ 
+   
+   article  > h2{font-family: var(--font-Android\ Scratch);
+   }
+   aside h3{
+       color: rgb(189, 238, 10);
+       background-image: linear-gradient(to right, green, white);
+   }
+   aside p{
+
+   }
+   aside li {
+        color: white;
+         padding: 10px;
+      
+     
+}
+aside li:hover{
+    color: yellow;
+}
+aside > ul{
+    list-style-type: '👍';
+    list-style-position: inside;
+    columns: 2;
+    background-color: green;
+    border-radius: 10px;
+   
+}
+ 
+   article  h3{
+    font-family: var(--font-Android\ Scratch);
+    
+   }
+
+  p#raels2 {
+   background-color: green;
+    color: whitesmoke;
+    text-align: center;
+   
+    margin-top: -3%;
+    }
+   
+    
+    nav{
+        background-color: green;
+        padding: 1%;
+        text-shadow: opx 0px 0px black;
+        margin-top: -2%;
+        
+    }
+    nav > a{
+        color: white;
+        text-decoration: none;
+       padding: 10px;
+    }
+    nav > a:hover{
+        background-color: rgb(131, 240, 7);
+        color: rgb(251, 255, 0);
+
+    }
+    strong >a:hover{
+        background-color: greenyellow;
+        color: ivory;
+    }
+    
+
+main{
+    min-width: 70;
+    max-width: 400;
+    margin: auto;
+}
+ main img{
+    width: 100%;
+
+}
+main a{
+    background-color: green;
+    color: greenyellow;
+    font-size: 15px;
+
+}
+
+      p{
+     text-align: justify;
+     text-indent: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+    }
+    div.video{
+        background-color: green;
+        
+
+    }
+    footer a{
+        background-color: rgb(34, 0, 128);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer a:hover{
+     background-color: rgb(71, 7, 247);
+     color: white;
+    }
+    footer p{
+      background-image: linear-gradient(to right, green , white);
+    }
+  
+    
+
+   
